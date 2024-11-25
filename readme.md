@@ -22,7 +22,7 @@ Em seguida, chame o módulo para criar a VPC e as sub-redes. Adicione a seguinte
 
 ```hcl
 module "vpc" {
-  source = "github.com/fiap-postech-36/vpc-infrastructure?ref=1.0.0"  # Chama o módulo VPC do repositório
+  source = "github.com/fiap-postech-36/vpc-infrastructure?ref=v1.0.0"  # Chama o módulo VPC do repositório
 
   name                = "my-vpc"                # Nome da sua VPC
   vpc_cidr            = "10.0.0.0/16"           # CIDR da VPC
